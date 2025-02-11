@@ -1,15 +1,12 @@
-package passo12_herança_polimorfismo_abstrato.atividade4;
+package passo12_herança_polimorfismo_abstrato.atividade4.model_entities;
 
-public class rectangle extends shape{
+public class rectangle extends abstract_shape {
 
     private double weigth;
     private double height;
 
-    public rectangle(){
-        super();
-    }
 
-    public rectangle(color color, double weigth, double height) {
+    public rectangle(passo12_herança_polimorfismo_abstrato.atividade4.model_enums.color color, double weigth, double height) {
         super(color);
         this.weigth = weigth;
         this.height = height;

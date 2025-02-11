@@ -1,14 +1,10 @@
-package passo12_herança_polimorfismo_abstrato.atividade4;
+package passo12_herança_polimorfismo_abstrato.atividade4.model_entities;
 
-public class circle extends shape{
+public class circle extends abstract_shape {
 
     private double radius;
 
-    public circle(){
-        super();
-    }
-
-    public circle(color color, double radius) {
+    public circle(passo12_herança_polimorfismo_abstrato.atividade4.model_enums.color color, double radius) {
         super(color);
         this.radius = radius;
     }
